@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/veandco/go-sdl2/sdl"
+)
 
 func main() {
 	sdl.Init(sdl.INIT_EVERYTHING)
-	fmt.Println("Hello World!!")
+	fmt.Println("Hello Steve!!")
 }
