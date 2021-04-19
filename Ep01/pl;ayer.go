@@ -11,7 +11,7 @@ type player struct {
 }
 
 func newPlayer(renderer *sdl.Renderer) (p player, err error) {
-	img, err := sdl.LoadBMP("sprites/player.bmp")
+	img, err := sdl.LoadBMP("sprintes/player.bmp")
 	if err != nil {
 		return player{}, fmt.Errorf("loading player sprite: %v", err)
 	}
