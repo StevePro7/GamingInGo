@@ -12,6 +12,10 @@ func newBasicEnemy(renderer *sdl.Renderer, position vector) *element {
 	basicEnemy.position = position
 	basicEnemy.rotation = 180
 
-	//err := newSpri
+	sr := newSpriteRenderer(basicEnemy, renderer, "sprites/basic_enemy.bmp")
+	basicEnemy.addComponent(sr)
 
+	basicEnemy.active = true
+
+	return basicEnemy
 }
