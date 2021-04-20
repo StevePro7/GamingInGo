@@ -90,6 +90,6 @@ func (shooter *keyboardShooter) shoot(x, y float64) {
 	}
 }
 
-func (mover *keyboardShooter) onCollision(other *element) error {
+func (shooter *keyboardShooter) onCollision(other *element) error {
 	return nil
 }
