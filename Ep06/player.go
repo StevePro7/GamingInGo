@@ -22,7 +22,7 @@ func newPlayer(renderer *sdl.Renderer) *element {
 	sr := newSpriteRenderer(player, renderer, "sprites/player.bmp")
 	player.addComponent(sr)
 
-	mover := newKeyboardMover(player, 0.05)
+	mover := newKeyboardMover(player, 5)
 	player.addComponent(mover)
 
 	shooter := newKeyboardShooter(player, playerShotCooldown)

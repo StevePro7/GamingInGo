@@ -22,8 +22,8 @@ func (mover *bulletMover) onDraw(renderer *sdl.Renderer) error {
 func (mover *bulletMover) onUpdate() error {
 	c := mover.container
 
-	c.position.x += bulletSpeed * math.Cos(c.rotation)
-	c.position.y += bulletSpeed * math.Sin(c.rotation)
+	c.position.x += bulletSpeed * math.Cos(c.rotation) * delta
+	c.position.y += bulletSpeed * math.Sin(c.rotation) * delta
 
 	if c.position.x > screenWidth || c.position.x < 0 ||
 		c.position.y > screenHeight || c.position.y < 0 {

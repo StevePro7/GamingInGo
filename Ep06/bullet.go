@@ -6,7 +6,7 @@ import (
 
 const (
 	bulletSize  = 32
-	bulletSpeed = 0.15
+	bulletSpeed = 10
 )
 
 func newBullet(renderer *sdl.Renderer) *element {

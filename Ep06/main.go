@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/veandco/go-sdl2/sdl"
 )
@@ -9,12 +10,16 @@ import (
 const (
 	screenWidth  = 600
 	screenHeight = 800
+
+	targetTicksPerSecond = 60
 )
 
 type vector struct {
 	x float64
 	y float64
 }
+
+var delta float64
 
 func main() {
 	if err := sdl.Init(sdl.INIT_EVERYTHING); err != nil {
@@ -54,6 +59,8 @@ func main() {
 	initBulletPool(renderer)
 
 	for {
+		frameStartTime := time.Now()
+
 		for event := sdl.PollEvent(); event != nil; event = sdl.PollEvent() {
 			switch event.(type) {
 			case *sdl.QuitEvent:
@@ -84,5 +91,7 @@ func main() {
 		}
 
 		renderer.Present()
+
+		delta = time.Since(frameStartTime).Seconds() * targetTicksPerSecond
 	}
 }
