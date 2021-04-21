@@ -23,7 +23,7 @@ func main() {
 	}
 
 	window, err := sdl.CreateWindow(
-		"Gaming in Go Episode 2",
+		"Gaming in Go Episode 5",
 		sdl.WINDOWPOS_UNDEFINED, sdl.WINDOWPOS_UNDEFINED,
 		screenWidth, screenHeight,
 		sdl.WINDOW_OPENGL)
