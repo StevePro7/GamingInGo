@@ -23,10 +23,10 @@ func drawTexture(
 
 	return renderer.CopyEx(
 		tex,
-		&sdl.Rect{},
-		&sdl.Rect{},
+		&sdl.Rect{X: 0, Y: 0, W: width, H: height},
+		&sdl.Rect{X: int32(position.x), Y: int32(position.y), W: width, H: height},
 		rotation,
-		&sdl.Point{width / 2, height / 2},
+		&sdl.Point{X: width / 2, Y: height / 2},
 		sdl.FLIP_NONE)
 }
 
