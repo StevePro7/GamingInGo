@@ -5,17 +5,7 @@ import (
 	"github.com/veandco/go-sdl2/sdl"
 )
 
-func (s spriteRenderer) onUpdate() error {
-	panic("implement me")
-}
 
-func (s spriteRenderer) onDraw(renderer *sdl.Renderer) error {
-	panic("implement me")
-}
-
-func (s spriteRenderer) onCollision(other *element) error {
-	panic("implement me")
-}
 
 type spriteRenderer struct {
 	container     *element
@@ -43,4 +33,23 @@ func newSpriteRenderer(container *element, renderer *sdl.Renderer, filename stri
 	sr.container = container
 
 	return sr
+}
+
+func (sr *spriteRenderer) start() {
+}
+
+func (sr *spriteRenderer) onUpdate() error {
+	return nil
+}
+
+func (sr *spriteRenderer) onDraw(renderer *sdl.Renderer) error {
+	return drawTexture(
+		sr.tex,
+		sr.container.position,
+		sr.container.rotation,
+		renderer)
+}
+
+func (sr *spriteRenderer) onCollision(other *element) error {
+	return nil
 }
