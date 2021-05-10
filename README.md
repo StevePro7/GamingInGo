@@ -16,4 +16,3 @@ sudo apt-get install libsdl2-dev
 go get github.com/veandco/go-sdl2/sdl
 go mod tidy
 ```
- 
