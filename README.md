@@ -24,8 +24,8 @@ Code from Gaming In Go YouTube tutorial series
   </tr>
   <tr>
     <td>&nbsp;Episode 5</td>
-    <td>&nbsp;https://www.youtube.com/watch?v=5HCdqV4nQkQ</td>
-    <td>&nbsp;Introduction</td>
+    <td>&nbsp;https://www.youtube.com/watch?v=tpmSwaASz5g</td>
+    <td>&nbsp;Collision Detection</td>
   </tr>
   <tr>
     <td>&nbsp;Episode 6</td>
@@ -34,28 +34,11 @@ Code from Gaming In Go YouTube tutorial series
   </tr>
   <tr>
     <td>&nbsp;Episode 7</td>
-    <td>&nbsp;https://www.youtube.com/watch?v=5HCdqV4nQkQ</td>
-    <td>&nbsp;Introduction</td>
+    <td>&nbsp;https://www.youtube.com/watch?v=y8pc4Z6p9dA/td>
+    <td>&nbsp;Animation</td>
   </tr>
   
-</table>
-Gaming in Go: Episode 1 https://www.youtube.com/watch?v=5HCdqV4nQkQ Introduction
-<br />
-Gaming in Go: Episode 2 https://www.youtube.com/watch?v=2VVFcs8jHRk Getting Graphics on Screen
-<br />
-Gaming in Go: Episode 1 https://www.youtube.com/watch?v=1kqO7DaNH_E User Input
-<br />
-Gaming in Go: Episode 1 https://www.youtube.com/watch?v=5HCdqV4nQkQ
-<br />
-Gaming in Go: Episode 1 https://www.youtube.com/watch?v=5HCdqV4nQkQ
-<br />
-Gaming in Go: Episode 1 https://www.youtube.com/watch?v=5HCdqV4nQkQ
 
-Garbage collected language runs in parallel
-Open GL Cgo C bindings for Go
-
-Episode 02
-https://www.youtube.com/watch?v=2VVFcs8jHRk
 
 IMPORTANT
 Reference:
