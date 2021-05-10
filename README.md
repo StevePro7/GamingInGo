@@ -1,6 +1,17 @@
 # GamingInGo
-Code from Gaming In Go YouTube tutorial series
+Code from Gaming In Go YouTube tutorial series from <a href="https://github.com/velovix/gaming-in-go">Velovix</a>
+|Episdoe  |YouTube        |Title  |
+|---------|-------------------------------------------|-----------------------------------------|
+|Episode 1|https://www.youtube.com/watch?v=5HCdqV4nQkQ|Introduction|
+|Episode 2|https://www.youtube.com/watch?v=2VVFcs8jHRk|Getting Graphics on Screen|
+|Episode 3|https://www.youtube.com/watch?v=1kqO7DaNH_E|User Input|
+|Episode 4|https://www.youtube.com/watch?v=5Rt3dIJQEwQ|Component-based Architecture|
+|Episode 5|https://www.youtube.com/watch?v=tpmSwaASz5g|Collision Detection|
+|Episode 6|https://www.youtube.com/watch?v=Ib_7DYM6f3o|Hardware-Independent Physics Calculations|
+|Episode 7|https://www.youtube.com/watch?v=y8pc4Z6p9dA|Animation|
 
+
+BLAH
 <table>
   <tr>
     <td>&nbsp;Episode 1</td>
@@ -37,22 +48,5 @@ Code from Gaming In Go YouTube tutorial series
     <td>&nbsp;https://www.youtube.com/watch?v=y8pc4Z6p9dA/td>
     <td>&nbsp;Animation</td>
   </tr>
-  
-
-
-IMPORTANT
-Reference:
-anNOTES02.txt
-D:\Bitbucket\SteveProXNA\actionstuff\Study\Plurasight\GoLang\GameDevelopment
-
-Terminal
-go mod init github.com/velovix/gaming-in-go
-go mod tidy
-
-LINUX
-sudo apt-get install libsdl2-dev
-go get github.com/veandco/go-sdl2/sdl
-go mod tidy
-
-Gihub
-https://github.com/velovix/gaming-in-go
+ </table>
+ Test
